@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+* {
+ margin: 0;
+ padding: 0;
+ scroll-behavior: smooth;
+}
+body{
+    min-height: 300vh; ;
+    width: 100%;
+    background-color: #fff;
+}
+li, a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "Roboto";
+    
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    z-index: 10000;
+    
+
+}
+.Info{
+ list-style: none;
+ width: 400px;
+}
+.Info li{
+    margin: 30px 0;
+}
+.soltoast{
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.logo{
+    position: relative;
+    cursor: pointer;
+    width: 80px;
+    display: flex;
+}
+.titleInfo{
+    margin: 50px 0;
+    text-align: justify;
+    font-family: 'Roboto';
+    font-size: 20px;
+
+}
+h4{
+    vertical-align: middle;
+    margin: 20px 0;
+    font-family: "Akaya Telivigala";
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+}
+.h42{
+    vertical-align: middle;
+    margin: 20px 0;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.nav__links{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__links li{
+    position: relative;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    position: relative;
+    margin: 0 15px;
+    letter-spacing: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+ 
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #b1f1b691;
+    padding-bottom: 80px;
+ 
+}
+.title4{
+    margin-bottom: 40px;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 90px; 
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #b1f1b691;
+    padding-bottom: 30px;
+ 
+}
+.roadmap{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.containerRoadmap h1{
+    text-align: center;
+}
+.gif{
+    width: 200px;
+}
+
+h1{
+    margin: 60px 0 0 0;
+    font-family: "Rampart One";
+    font-size: 56px;
+}
+h2{
+    font-family: "Rampart One";
+    font-size: 36px;
+    margin: 40 0 0 0 ;
+}
+header.sticky{
+    background: #000000;
+}
+header.sticky ul li a{
+
+    color: #fff;
+}
+.title{
+    margin: 50px 0;
+    font-size: 25px;
+    font-family: "roboto";
+    padding: 0 25%;
+}
+.giff{
+    width: 380px;
+    border: #343a40 4px solid;
+    border-radius: 50%;
+
+}
+.containerColumn{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.p{
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 19px;
+    padding: 30px;
+    margin: 0 60px;
+    width: 400px;
+}
+.p2{
+    width: 330px;
+    font-family: "Roboto";
+    font-weight: 100;
+    font-size: 19px;
+    order:2;
+}
+.containerColumn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1140px;
+
+}
+.title2{
+    margin-top:80px;
+}
+.p3{
+    font-family: "Roboto";
+}
+h3{
+    margin: 40px 0 20px 0;
+    font-family: "Roboto";
+    font-size: 26px;
+}
+.profile{
+    width: 300px;
+    margin: 0 10px;
+    border: 5px solid rgb(52, 58, 64);
+    border-radius: 20%;
+}
+footer{
+    height: 80px;
+    background-color: #000000;
+    width: 100%;
+    margin: 0;
+}
+.gifcontainer{
+    display: flex;
+    border: 5px #343a40 solid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 400px;
+    margin-top: 60px;
+    margin-bottom: 95px ;
+}
+.down{
+    margin-top: -4px;
+}
+@media ( max-width: 1165px ){
+  .containerRoadmap, .p3, .containerColumn2{
+      width: 800px
+  }
+    ;
+}
+
+@media ( max-width: 977px ){
+    .containerRoadmap, .p3, .containerColumn2{
+        width: 600px
+    }
+    .Info li{
+        font-size: 13px;
+    }
+    .profile{
+        width: 250px;
+    }
+    .title{
+        padding: 0 15%;
+    }
+    .title3{
+        width: 977px;
+    }  
+    .giff{
+        width: 250px;
+    } 
+    .gifcontainer{
+        width: 300px;
+        height: 200px;
+    }
+    .gif{
+        width: 100px
+    };
+  }
+  @media ( max-width: 829px ){
+    .containerRoadmap, .p3, .containerColumn2{
+        width: 600px
+    }
+
+    .profile{
+        width: 150px;
+    }
+    .title{
+        padding: 0 10%;
+    }
+    .p{
+        font-size: 13px;
+    }
+    h1{
+        font-size: 36px;
+    
+    }
+    h2{
+        font-size: 29px;
+    }
+    h3{
+        font-size: 23px;
+    }
+    p{
+        font-size: 16px;
+    }  
+    .giff{
+        width: 200px;
+    } 
+    .gifcontainer{
+        width: 300px;
+        height: 200px;
+    }
+    .gif{
+        width: 100px
+    };
+  }
+  
+  @media ( max-width: 602px ){
+    .containerRoadmap, .p3, .containerColumn2, .containerColumn{
+        width: 400px
+    }
+    .container2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .title{
+        right: 0;
+        width: 300px;
+    }
+    .Info li{
+        font-size: 13px;
+    }
+    .profile{
+        width: 300px;
+    }
+    .containerColumn{
+        flex-direction: column;
+        align-items: center;
+    }
+    .p{
+        font-size: 13px;
+        width: 400px;
+        margin: 0 0 30px 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 29px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    a{
+        font-size: 0px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .title2{
+        margin-top: 75px;
+    }  
+    .giff{
+        width: 200px;
+
+    } 
+    .gifcontainer{
+        width: 300px;
+        height: 200px;
+    }
+    .gif{
+        width: 100px
+    };
+  }
+  @media only screen and ( max-width: 420px ){
+    .container2{
+        flex-direction: column;
+        align-content: center;
+    }
+  }
+
+  @media ( max-width: 360px ){
+    .containerRoadmap, .p3, .containerColumn2, .containerColumn{
+        width: 300px
+    }
+    .title{
+        width: 300px;
+        padding: 0;
+    }
+    .profile{
+        width: 250px;
+    }
+    .containerColumn{
+        flex-direction: column;
+        align-items: center;
+    }
+    .p{
+        font-size: 11px;
+        width: 300px;
+        margin: 0 0 30px 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 29px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .title2{
+        margin-top: 75px;
+    }  
+    .giff{
+        width: 200px;
+
+    }
+    a{
+        font-size: 0px;
+    } 
+    .gifcontainer{
+        width: 300px;
+        height: 200px;
+    }
+    .gif{
+        width: 100px
+    }
+  }
+  .footerCopy{
+      color: #fff;
+      font-family: "roboto";
+      padding: 30px;
+      display: inline;
+      
+  }
+  .containersocial{
+      display: flex;
+      justify-content: space-between;
+  }
+  .social{
+      width: 60px;
+      padding: 20px;
+  }
+  
